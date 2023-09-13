@@ -19,7 +19,7 @@ const Home = () => {
           <Main />
         </Parallax>
       </main>
-      <section className="bg-business-patern bg-no-repeat bg-center bg-cover h-60 md:h-96 lg:h-h128 flex items-center justify-center">
+      <section className="bg-business-patern bg-no-repeat bg-center bg-cover h-60 md:h-96 lg:h-h128 flex items-center justify-center ">
         <Parallax translateY={[50, -30]}>
           <CenterText />
         </Parallax>
