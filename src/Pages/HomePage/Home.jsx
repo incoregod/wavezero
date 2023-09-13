@@ -19,7 +19,7 @@ const Home = () => {
           <Main />
         </Parallax>
       </main>
-      <section>
+      <section className="bg-business-patern bg-no-repeat bg-center bg-cover h-h128 flex items-center justify-center">
         <Parallax translateY={[50, -30]}>
           <CenterText />
         </Parallax>
@@ -27,7 +27,7 @@ const Home = () => {
       <section>
         <Partners />
       </section>
-      <section>
+      <section className="bg-contact-patern bg-no-repeat bg-center h-h128">
         <Parallax translateY={[30, -20]}>
           <ContactSec />
         </Parallax>
