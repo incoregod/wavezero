@@ -1,3 +1,4 @@
+import CenterText from "./CenterText";
 import ContactSec from "./ContactSec";
 import Header from "./Header";
 import Main from "./Main";
@@ -8,23 +9,26 @@ import { Parallax } from "react-scroll-parallax";
 //<Parallax translateY={[-20, 20]}>
 const Home = () => {
   return (
-    <div className="flex flex-col p-5 md:p-10 2xl:p-20">
+    <div className="flex flex-col ">
       <header>
         <Header />
       </header>
 
-      <main className="mt-10 md:mt-28 lg:mt-36 ">
-        <Parallax translateY={[-50, 50]}>
+      <main className="mt-10 md:mt-0">
+        <Parallax translateY={[20, -20]}>
           <Main />
         </Parallax>
       </main>
-      <section className="mt-20 md:mt-28 lg:mt-36 ">
-        <Parallax translateY={[30, -5]}>
-          <Partners />
+      <section>
+        <Parallax translateY={[50, -30]}>
+          <CenterText />
         </Parallax>
       </section>
-      <section className="mt-20 md:mt-28 lg:mt-36 ">
-        <Parallax translateY={[30, -50]}>
+      <section>
+        <Partners />
+      </section>
+      <section>
+        <Parallax translateY={[30, -20]}>
           <ContactSec />
         </Parallax>
       </section>

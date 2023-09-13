@@ -1,7 +1,7 @@
 import { Parallax } from "react-scroll-parallax";
 const Header = () => {
   return (
-    <div className="text-gray-100">
+    <div className="text-gray-100 p-5 md:p-10 2xl:p-20">
       <Parallax translateY={[0, 20]}>
         <h1 className="text-2xl md:text-7xl 2xl:text-8xl font-montserrat font-black tracking-wider">
           WE <br /> MAKE IT <br /> DIFFERENT

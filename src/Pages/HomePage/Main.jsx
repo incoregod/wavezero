@@ -2,7 +2,7 @@ import SubHeader from "../../Components/SubHeader";
 import { Parallax } from "react-scroll-parallax";
 const Main = () => {
   return (
-    <>
+    <div className="p-5 md:p-10 2xl:p-20">
       <SubHeader
         text={"OUR"}
         styles={
@@ -41,7 +41,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -3,17 +3,7 @@ import SwiperSlides from "../../Features/SwiperSlides";
 
 const Partners = () => {
   return (
-    <>
-      <div className="text-center text-gray-100 font-playfair font-black tracking-wider mb-20 md:mb-28 lg:mb-36">
-        <h3 className="text-2xl md:text-5xl 2xl:text-6xl">
-          When Your Business Runs Better
-        </h3>
-        <h1 className="text-4xl md:text-7xl 2xl:text-8xl">
-          Your Customers <br />
-          Will Feel It
-        </h1>
-      </div>
-
+    <div className="p-5 md:p-10 2xl:p-20 ">
       <SubHeader
         text={"OUR"}
         styles={
@@ -24,7 +14,7 @@ const Partners = () => {
       />
 
       <SwiperSlides />
-    </>
+    </div>
   );
 };
 

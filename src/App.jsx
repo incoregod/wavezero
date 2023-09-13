@@ -31,7 +31,7 @@ function App() {
   ]);
   //  lg:bg-green-500 xl:bg-red-500 2xl:bg-purple-600
   return (
-    <div className="bg-cyan-900 dark:bg-gray-950 ">
+    <div className="bg-fundo dark:bg-gray-950 bg-header-pattern bg-no-repeat  bg-contain">
       <NavBar />
       {element}
       <Footer />
