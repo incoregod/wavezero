@@ -5,7 +5,7 @@ import Partners from "./Partners";
 
 const Home = () => {
   return (
-    <div className="flex flex-col p-5 2xl:p-20">
+    <div className="flex flex-col p-5 md:p-10 2xl:p-20">
       <header>
         <Header />
       </header>
