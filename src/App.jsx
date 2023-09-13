@@ -34,11 +34,11 @@ function App() {
     },
   ]);
   return (
-    <>
+    <div className="bg-cyan-900 dark:bg-gray-950 ">
       <NavBar />
       {element}
       <Footer />
-    </>
+    </div>
   );
 }
 

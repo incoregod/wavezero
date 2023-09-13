@@ -17,7 +17,7 @@ const Partners = () => {
         styles={
           "font-montserrat text-gray-100 text-md absolute bottom-0 h-4 right-3 font-black tracking-wider"
         }
-        textPosition={"text-end"}
+        textPosition={"text-end text-gray-600"}
         subtext={"PARTNERS"}
       />
 

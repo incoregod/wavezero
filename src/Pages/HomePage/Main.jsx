@@ -8,7 +8,7 @@ const Main = () => {
         styles={
           "font-montserrat text-gray-100 text-md absolute bottom-0 h-4 left-7 font-black tracking-wider"
         }
-        textPosition={"text-start"}
+        textPosition={"text-start text-gray-600"}
         subtext={"SERVICES"}
       />
       <div className="grid  grid-cols-2 gap-2  ">
@@ -20,7 +20,7 @@ const Main = () => {
           </p>
           <p className="mt-2">We do this across three key areas.</p>
         </div>
-        <div className="text-gray-100 mt-3 text-xsm max-w-xs flex gap-2 flex-col">
+        <div className="text-gray-100 mt-3 text-xsm max-w-xs flex gap-2 flex-col justify-center items-center">
           <div className="flex justify-between w-24 items-center border-b-gray-100 border-b border-opacity-50">
             <p>The right direction</p>
             <p>+</p>

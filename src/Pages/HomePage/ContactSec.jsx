@@ -9,7 +9,7 @@ const ContactSec = () => {
           styles={
             "font-montserrat text-gray-100 text-md absolute bottom-0 h-4 right-16 font-black tracking-wider"
           }
-          textPosition={"text-center"}
+          textPosition={"text-center text-gray-600"}
           subtext={"WANT TO MEET?"}
         />
       </div>

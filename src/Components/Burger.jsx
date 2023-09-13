@@ -22,7 +22,7 @@ const Burger = () => {
       ) : (
         <NavRoutes
           styles={
-            "sm:hidden fixed top-0 right-0 h-full w-56 p-4  bg-white bg-opacity-90 dark:bg-gray-950 dark:text-gray-100"
+            "sm:hidden fixed z-50 top-0 right-0 h-full w-56 p-4  bg-white bg-opacity-94 dark:bg-gray-800 dark:text-gray-100"
           }
           stylesBurger={
             "flex flex-col items-center h-full justify-center gap-20"

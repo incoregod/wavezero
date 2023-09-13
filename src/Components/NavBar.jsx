@@ -5,7 +5,7 @@ import NavRoutes from "./NavRoutes";
 
 const NavBar = () => {
   return (
-    <div className="flex h-16 justify-between items-center px-10 py-5 bg-cyan-900 font-montserrat dark:bg-gray-950">
+    <div className="flex h-16 justify-between items-center px-10 py-5 font-montserrat ">
       <div>
         <Link to={"/"} className="cursor-pointer ">
           <img

@@ -9,7 +9,7 @@ const Footer = () => {
     });
   };
   return (
-    <div className="pt-20 bg-cyan-900 font-firasans text-gray-100 text-xs">
+    <div className="pt-20 font-firasans text-gray-100 text-xs">
       <div className="grid grid-rows-3 justify-items-center">
         <img
           onClick={scrollToTop}

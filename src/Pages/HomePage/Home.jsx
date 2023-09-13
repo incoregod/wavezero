@@ -5,7 +5,7 @@ import Partners from "./Partners";
 
 const Home = () => {
   return (
-    <div className="bg-cyan-900 flex flex-col p-10">
+    <div className="flex flex-col p-10">
       <header>
         <Header />
       </header>
