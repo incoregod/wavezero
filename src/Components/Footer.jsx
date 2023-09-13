@@ -46,6 +46,13 @@ const Footer = () => {
           <FooterContacts type={"Email"} text={"geral@wavezero.pt"} />
         </div>
       </div>
+      <div className="flex items-center justify-center p-10 flex-col">
+        <p>Privacy Notice</p>
+        <p className="text-xs">
+          2023 © <span className="text-azulclaro">WaveZero</span> - Protecting
+          Your Business
+        </p>
+      </div>
     </div>
   );
 };
