@@ -7,9 +7,9 @@ const Partners = () => {
       <SubHeader
         text={"OUR"}
         styles={
-          "font-montserrat text-gray-100 text-md md:text-3xl 2xl:text-5xl absolute bottom-0 h-4 md:h-8 2xl:h-11 2xl:right-5 right-3 md:right-10 font-black tracking-wider"
+          "font-montserrat dark:text-gray-100 text-gray-950 text-md md:text-3xl 2xl:text-5xl absolute bottom-0 h-4 md:h-8 2xl:h-11 2xl:right-5 right-3 md:right-10 font-black tracking-wider"
         }
-        textPosition={"text-end text-gray-600 "}
+        textPosition={"text-end text-gray-300 dark:text-black"}
         subtext={"PARTNERS"}
       />
 

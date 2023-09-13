@@ -5,7 +5,10 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 import mcapita from "../assets/download.png";
+import { ThemeContext } from "../ThemeContext/ThemeContext";
+import { useContext } from "react";
 const SwiperSlides = () => {
+  const { theme } = useContext(ThemeContext);
   return (
     <>
       <Swiper
@@ -26,7 +29,7 @@ const SwiperSlides = () => {
         }}
         pagination={false}
         modules={[EffectCoverflow, Pagination, Autoplay]}
-        className="mySwiper"
+        className={` mySwiper ${theme === "dark" && "invert"}`}
       >
         <SwiperSlide>
           <img src={mcapita} />

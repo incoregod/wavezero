@@ -9,11 +9,11 @@ const Footer = () => {
     });
   };
   return (
-    <div className="pt-20 font-firasans text-gray-100 text-xs md:text-base">
+    <div className="pt-20 font-firasans dark:text-gray-100 text-gray-950 text-xs md:text-base">
       <div className="grid grid-rows-3 lg:grid-rows-1 lg:grid-cols-3 lg:justify-items-center lg:items-center lg:pb-10 justify-items-center">
         <img
           onClick={scrollToTop}
-          className="max-w-xs cursor-pointer"
+          className="max-w-xs cursor-pointer drop-shadow-xl"
           src={logoVert}
           alt="logo-wave-zero"
         />
@@ -40,7 +40,7 @@ const Footer = () => {
             }}
           />
         </div>
-        <div className="flex flex-col gap-3 font-firasans text-gray-100 text-xs md:text-base justify-center">
+        <div className="flex flex-col gap-3 font-firasans dark:text-gray-100 text-gray-950 text-xs md:text-base justify-center">
           <FooterContacts type={"Phone"} text={"(+351) 212 123 456"} />
           <FooterContacts type={"Phone"} text={"(+351) 212 123 456"} />
           <FooterContacts type={"Email"} text={"geral@wavezero.pt"} />

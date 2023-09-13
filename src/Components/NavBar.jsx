@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logoHor from "../assets/wavezero_horizontal.png";
 import Burger from "./Burger";
 import NavRoutes from "./NavRoutes";
+import "../index.css";
 
 const NavBar = () => {
   return (
@@ -9,7 +10,7 @@ const NavBar = () => {
       <div>
         <Link to={"/"} className="cursor-pointer ">
           <img
-            className="w-40 md:w-52 2xl:w-60 hover:scale-105 ease-in-out transition-all duration-300 "
+            className=" w-40 md:w-52 2xl:w-60 hover:scale-105 ease-in-out transition-all duration-300  "
             src={logoHor}
             alt="logo-wave-zero"
           />
@@ -17,7 +18,7 @@ const NavBar = () => {
       </div>
       <NavRoutes
         styles={
-          "max-sm:hidden flex gap-3 text-gray-100 text-sm md:text-base 2xl:text-lg"
+          "max-sm:hidden flex gap-3 lg:gap-10 xl:gap-16 2xl:gap-26 text-gray-950 dark:text-gray-100 text-sm md:text-base 2xl:text-lg"
         }
       />
       <Burger />

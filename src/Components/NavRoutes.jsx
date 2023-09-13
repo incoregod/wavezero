@@ -16,7 +16,7 @@ const NavRoutes = ({ styles, stylesBurger, handleMenuOpen }) => {
         <Link to={"/contactos"}>Contactos</Link>
         <div className="flex items-center" onClick={handleThemeChange}>
           {theme === "light" ? (
-            <BsFillMoonFill className="ml-2 cursor-pointer hover:text-black ease-in-out transition-all duration-300 text-md" />
+            <BsFillMoonFill className="ml-2 cursor-pointer hover:text-gray-200 ease-in-out transition-all duration-300 text-md" />
           ) : (
             <BsFillSunFill className="ml-2 cursor-pointer hover:text-yellow-500 ease-in-out transition-all duration-300 text-md" />
           )}

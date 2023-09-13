@@ -34,7 +34,7 @@ body {
 
 .swiper-slide img {
   width: 18rem;
-  filter: brightness(0) invert(100%);
+  filter: brightness(0);
 }
 
 .mySwiper {
