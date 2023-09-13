@@ -8,7 +8,7 @@ const Main = () => {
         styles={
           "font-montserrat text-gray-950 dark:text-gray-100 text-md md:text-3xl 2xl:text-5xl absolute bottom-0 h-4 md:h-8 2xl:h-11 left-7 md:left-16 font-black tracking-wider"
         }
-        textPosition={"text-start text-gray-300 dark:text-black"}
+        textPosition={"text-start text-gray-400 dark:text-black"}
         subtext={"SERVICES"}
       />
       <div className="grid  grid-cols-2 gap-2  ">
