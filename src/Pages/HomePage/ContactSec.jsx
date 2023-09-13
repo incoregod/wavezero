@@ -16,7 +16,7 @@ const ContactSec = () => {
       <div className="mt-24 md:mt-40 text-center dark:text-gray-100 text-gray-950 font-firasans font-black md:text-2xl lg:text-3xl 2xl:text-4xl">
         <h3>Let&apos;s discuss how our security expertise</h3>
         <h3>can bring you value and accelerate growth</h3>
-        <button className="mt-5 px-4 md:px-6 py-1.5 md:py-3 text-xs md:text-sm tracking-wider border-4">
+        <button className="mt-5 px-4 md:px-6 py-1.5 md:py-3 text-xs md:text-sm tracking-wider border-4 dark:border-gray-100 border-gray-900">
           CONTACT US
         </button>
       </div>
