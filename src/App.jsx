@@ -33,6 +33,7 @@ function App() {
       path: "/contactos",
     },
   ]);
+  //  lg:bg-green-500 xl:bg-red-500 2xl:bg-purple-600
   return (
     <div className="bg-cyan-900 dark:bg-gray-950 ">
       <NavBar />

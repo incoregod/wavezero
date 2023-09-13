@@ -9,13 +9,17 @@ const NavBar = () => {
       <div>
         <Link to={"/"} className="cursor-pointer ">
           <img
-            className="w-40 hover:scale-105 ease-in-out transition-all duration-300 "
+            className="w-40 md:w-52 2xl:w-60 hover:scale-105 ease-in-out transition-all duration-300 "
             src={logoHor}
             alt="logo-wave-zero"
           />
         </Link>
       </div>
-      <NavRoutes styles={"max-sm:hidden flex gap-3 text-gray-100 text-sm"} />
+      <NavRoutes
+        styles={
+          "max-sm:hidden flex gap-3 text-gray-100 text-sm md:text-base 2xl:text-lg"
+        }
+      />
       <Burger />
     </div>
   );

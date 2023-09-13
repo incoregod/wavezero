@@ -14,6 +14,10 @@ export default {
       },
       fontSize: {
         xsm: "0.5rem",
+        xxxl: "11rem",
+      },
+      spacing: {
+        w128: "32rem",
       },
     },
   },

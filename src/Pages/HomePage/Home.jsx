@@ -5,17 +5,17 @@ import Partners from "./Partners";
 
 const Home = () => {
   return (
-    <div className="flex flex-col py-10">
-      <header className="px-10">
+    <div className="flex flex-col p-10 2xl:p-20">
+      <header>
         <Header />
       </header>
-      <main className="mt-10 px-10">
+      <main className="mt-10 md:mt-28 lg:mt-36 ">
         <Main />
       </main>
-      <section className="mt-20">
+      <section className="mt-20 md:mt-28 lg:mt-36 ">
         <Partners />
       </section>
-      <section className="mt-20 px-10">
+      <section className="mt-20 md:mt-28 lg:mt-36 ">
         <ContactSec />
       </section>
     </div>

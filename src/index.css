@@ -18,7 +18,7 @@ body {
 }
 .swiper {
   width: 100%;
-  /* padding-top: 50px; */
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -27,9 +27,22 @@ body {
   background-size: cover;
   width: 150px;
   height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
+  width: 18rem;
+}
+
+.mySwiper {
+  width: 80%;
+}
+
+@media screen and (min-width: 900px) {
+  .swiper-slide img {
+    width: 30rem;
+    margin-top: 5rem;
+  }
 }
