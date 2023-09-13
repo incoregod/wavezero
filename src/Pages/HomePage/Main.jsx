@@ -1,5 +1,5 @@
 import SubHeader from "../../Components/SubHeader";
-
+import { Parallax } from "react-scroll-parallax";
 const Main = () => {
   return (
     <>
@@ -23,15 +23,21 @@ const Main = () => {
         <div className="text-gray-100 mt-3 text-xsm md:text-sm lg:text-base 2xl:text-2xl  max-w-xs flex gap-2 flex-col justify-center items-center md:items-end md:max-w-lg lg:max-w-none ">
           <div className="flex justify-between w-24 md:w-72 2xl:w-w128 items-center border-b-gray-100 border-b border-opacity-50">
             <p>The right direction</p>
-            <p>+</p>
+            <Parallax translateX={[-1000, -2]}>
+              <p>+</p>
+            </Parallax>
           </div>
           <div className="flex justify-between w-24 md:w-72 2xl:w-w128 items-center border-b-gray-100 border-b border-opacity-50">
             <p>The right approach</p>
-            <p>+</p>
+            <Parallax translateX={[-950, -2]}>
+              <p>+</p>
+            </Parallax>
           </div>
           <div className="flex justify-between w-24 md:w-72 2xl:w-w128 items-center border-b-gray-100 border-b border-opacity-50">
             <p>The right position</p>
-            <p>+</p>
+            <Parallax translateX={[-900, -2]}>
+              <p>+</p>
+            </Parallax>
           </div>
         </div>
       </div>
