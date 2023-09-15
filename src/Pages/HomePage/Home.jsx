@@ -27,7 +27,7 @@ const Home = () => {
       <section>
         <Partners />
       </section>
-      <section className="bg-contact-patern bg-no-repeat bg-center h-h128">
+      <section className="bg-contact-patern bg-no-repeat bg-center bg-cover h-h128">
         <Parallax translateY={[30, -20]}>
           <ContactSec />
         </Parallax>
