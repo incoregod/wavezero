@@ -1,4 +1,4 @@
-import logoVert from "../assets/wavezero_vertical.png";
+import logoVert from "../assets/wavezero_vertical.webp";
 import FooterInfo from "./FooterInfo";
 import FooterContacts from "./FooterContacts";
 const Footer = () => {

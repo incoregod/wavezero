@@ -24,9 +24,9 @@ export default {
         h128: "32rem",
       },
       backgroundImage: {
-        "header-pattern": "url('/src/assets/header_background.png')",
-        "business-patern": "url('/src/assets/business_background.png')",
-        "contact-patern": "url('/src/assets/contact_background.png')",
+        "header-pattern": "url('/src/assets/header_background.webp')",
+        "business-patern": "url('/src/assets/business_background.webp')",
+        "contact-patern": "url('/src/assets/contact_background.webp')",
       },
     },
   },
