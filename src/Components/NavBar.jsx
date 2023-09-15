@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoHor from "../assets/wavezero_horizontal.webp";
+import logoHor from "../assets/wavezero_horizontal.avif";
 import Burger from "./Burger";
 import NavRoutes from "./NavRoutes";
 import "../index.css";
