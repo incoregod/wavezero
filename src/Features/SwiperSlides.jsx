@@ -32,16 +32,16 @@ const SwiperSlides = () => {
         className={` mySwiper ${theme === "dark" && "invert"}`}
       >
         <SwiperSlide>
-          <img src={mcapita} />
+          <img src={mcapita} alt="logo-mdcapital" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={mcapita} />
+          <img src={mcapita} alt="logo-mdcapital" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={mcapita} />
+          <img src={mcapita} alt="logo-mdcapital" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={mcapita} />
+          <img src={mcapita} alt="logo-mdcapital" />
         </SwiperSlide>
       </Swiper>
     </>
