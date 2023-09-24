@@ -18,3 +18,6 @@ enhance the user experience and data persistence.
 
 Enhanced user experience: Introduced parallax effects
 to captivate and engage visitors.
+
+https://imgur.com/a/aLmaGSX
+Seo, performance, Accessibility, Best Practices
