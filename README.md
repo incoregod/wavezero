@@ -1,8 +1,20 @@
-# React + Vite
+# WaveZero CyberSecurity Mockup Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Used:
 
-Currently, two official plugins are available:
+Tailwind CSS Mastery: Utilized Tailwind CSS to ensure
+an elegant and responsive design, achieving a
+captivating visual experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Utilized React Router for flawless navigation and user
+journey.
+
+Efficient state management: Leveraged Context API
+for optimal state management, resulting in superior
+application performance.
+
+Data persistence: Skillfully employed LocalStorage to
+enhance the user experience and data persistence.
+
+Enhanced user experience: Introduced parallax effects
+to captivate and engage visitors.
