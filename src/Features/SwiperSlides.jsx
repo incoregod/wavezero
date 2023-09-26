@@ -4,7 +4,8 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
-import mcapita from "../assets/download.avif";
+import mcapita from "../assets/wavezero_horizontal.avif";
+
 import { ThemeContext } from "../ThemeContext/ThemeContext";
 import { useContext } from "react";
 const SwiperSlides = () => {
